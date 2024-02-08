@@ -1,13 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Clicker+Script&family=Oswald:wght@500&family=Poppins:wght@100;200;300;400;500;600&family=Tajawal:wght@700&family=Ubuntu&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+  background-color: rgb(255, 255, 255);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html {
+  scroll-behavior: smooth;
 }
+
+:root {
+  --blue-color: #1F2278;
+  --gray-color: #525151;
+  --green-color: #3A5B22;
+}
+
+section,
+footer,
+header {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  padding: 25px 0px;
+}
+
+a {
+  text-decoration: none !important;
+  color: var(--blue-color);
+}
+
+span {
+  display: block;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  text-align: center;
+  box-sizing: border-box;
+  height: 40px;
+  border-radius: 4px;
+}
+
+p {
+  line-height: 20px;
+}
+
+input {
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  text-align: left;
+  padding: 5px 15px;
+  color: #333;
+  font-size: 16px;
+}
+
+/* @media (max-width:1199px) {
+  .login{
+    
+  }
+  .login .content{
+    
+  }
+  .login .content .form{
+    
+  }
+  .login .photo img{
+    
+  }
+  .login form input{
+    
+  }
+  .login form label{
+    
+  }
+  .check span{
+    
+  }
+  #check{
+    
+  }
+  .check a{
+    
+  }
+  .login .btn {
+    
+  }
+  .login .btn a{
+    
+  }
+  .or{
+    
+  }
+  .login .links a{
+    
+  }
+  .login .pass{
+    
+  }
+  .login .for{
+  
+  }
+  .login button{
+    max-width: 100%;
+  }
+  .login button svg{
+  
+  }
+  button.log-in{
+    margin-right: -12px;
+  }
+  .login .last{
+    
+  }
+
+  @media (max-width:991px) {
+    
+    
+  }
+
+  @media (max-width:767px) {
+    .login{
+      max-width: 10%;
+    }
+    .login .content{
+      max-width: 100%;
+    }
+    .login .content .form{
+      max-width:100%;
+    }
+    .login .photo img{
+      display: none;
+    }
+    .login form input{
+      max-width:100%;
+    }
+    .login form label{
+      max-width:100%;
+    }
+    .check span{
+      max-width:100%;
+    }
+    #check{
+      max-width:100%;
+    }
+    .check a{
+      max-width:100%;
+    }
+    .login .btn {
+      max-width:100%;
+    }
+    .login .btn a{
+      max-width:100%;
+    }
+    .or{
+      max-width:100%;
+    }
+    .login .links a{
+      max-width:100%;
+    }
+    .login .pass{
+      max-width:100%;
+    }
+    .login .for{
+      max-width:100%;
+    }
+    .login button{
+      max-width:100%;
+    }
+    .login button svg{
+      max-width:100%;
+    }
+    button.log-in{
+      max-width:100%;
+    }
+    .login .last{
+      max-width:100%;
+    }
+  }
+
+} */
